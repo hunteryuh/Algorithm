@@ -32,6 +32,8 @@ public class myMerge {
         assert isSorted(a,lo,mid);
         assert isSorted(a,mid+1,hi);
         for (int k = lo; k<=hi; k++) a2[k]=a[k];
+
+
         int i = lo;
         int j= mid + 1;
         for (int k = lo; k<=hi; k++){
