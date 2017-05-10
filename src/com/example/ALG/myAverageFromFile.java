@@ -29,6 +29,6 @@ public class myAverageFromFile {
         double average = sum / count;
 
         // print results
-        StdOut.println("Average is " + average);
+        System.out.println("Average is " + average);
     }
 }
